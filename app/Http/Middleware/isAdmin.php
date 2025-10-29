@@ -16,6 +16,18 @@ class isAdmin
      */
     public function handle(Request $request, Closure $next): Response
     {
+        // Get the user
+    $user = Auth::guard('web')->user();
+
+    // Check if user is logged in
+    if (!$user) {
+        return redirect()->route('login')->withErrors(['error' => 'Please login first.']);
+    }
+
+    // Check role
+    if ($user->role !== 'admin') {
+        return redirect()->route('login')->withErrors(['error' => 'You are not authorized to access admin area.']);
+    }
         return $next($request);
     }
 }

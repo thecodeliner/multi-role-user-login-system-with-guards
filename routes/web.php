@@ -15,9 +15,9 @@ Route::get('/login', [AuthController::class, 'showLogin'])->name('auth.login');
 Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 //admin route
-Route::get('admin/dashboard', [AdminController::class, 'showAdminDashboard'])->name('admin.dashboard');
+Route::get('admin/dashboard', [AdminController::class, 'showAdminDashboard'])->name('admin.dashboard')->middleware('isAdmin');
 
-Route::get('admin/profile', [AdminController::class, 'adminProfile'])->name('admin.profile');
+Route::get('admin/profile', [AdminController::class, 'adminProfile'])->name('admin.profile')->middleware('isAdmin');
 
 Route::get('admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
 
@@ -26,13 +26,13 @@ Route::get('/admin/create-admin', [AdminController::class, 'createAdmin'])->name
 Route::post('/admin/create-admin', [AdminController::class, 'storeAdmin'])->name('admin.store');
 
 //create student and teachers
-Route::get('student/add-student', [CreateStudentController::class, 'create'])->name('admin.student.create');
+Route::get('student/add-student', [CreateStudentController::class, 'create'])->name('admin.student.create')->middleware('isAdmin');
 
-Route::post('student/add-student', [CreateStudentController::class, 'store'])->name('admin.student.store');
+Route::post('student/add-student', [CreateStudentController::class, 'store'])->name('admin.student.store')->middleware('isAdmin');
 
-Route::get('teacher/add-teacher', [CreateTeacherController::class, 'create'])->name('admin.teacher.create');
+Route::get('teacher/add-teacher', [CreateTeacherController::class, 'create'])->name('admin.teacher.create')->middleware('isAdmin');
 
-Route::post('teacher/add-teacher', [CreateTeacherController::class, 'store'])->name('admin.teacher.store');
+Route::post('teacher/add-teacher', [CreateTeacherController::class, 'store'])->name('admin.teacher.store')->middleware('isAdmin');
 
 
 //student route
