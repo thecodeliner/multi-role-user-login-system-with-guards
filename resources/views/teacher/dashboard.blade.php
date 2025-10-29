@@ -32,8 +32,8 @@
                     <h1 class="text-2xl font-bold text-gray-900">Teacher Dashboard</h1>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="teacher_profile.html" class="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition">My Profile</a>
-                    <a href="login.html" class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition">Logout</a>
+                    <a href="{{ route('teacher.profile') }}" class="bg-primary text-white px-4 py-2 rounded-lg font-medium hover:bg-secondary transition">My Profile</a>
+                    <a href="{{ route('teacher.logout') }}" class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition">Logout</a>
                 </div>
             </div>
         </div>

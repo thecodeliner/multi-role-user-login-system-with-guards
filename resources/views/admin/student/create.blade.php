@@ -33,7 +33,7 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="{{route('admin.dashboard')}}" class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition">Back to Dashboard</a>
-                    <a href="login.html" class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition">Logout</a>
+                    <a href="{{ route('admin.logout') }}" class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition">Logout</a>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
         <div class="bg-white shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
                 <h3 class="text-lg leading-6 font-medium text-gray-900 mb-6">Student Registration Form</h3>
-                
+
                 <div class="error">
                     @if($errors->any)
                     <ul>
@@ -54,12 +54,12 @@
                     </ul>
                     @endif
                 </div>
-                
+
                 <div class="success">
                     @if(@session('success'))
-                    
+
                     <p class="text-green-500">{{ session('success') }}</p>
-                    
+
                     @endif
                 </div>
 
@@ -81,7 +81,7 @@
                         <label for="new-student-email" class="block text-sm font-medium text-gray-700">Email Address</label>
                         <input type="email" name="email" id="new-student-email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
-                    
+
                     <div>
                         <label for="new-student-password" class="block text-sm font-medium text-gray-700">Password</label>
                         <input type="password" name="password" id="new-student-password"  class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
@@ -130,12 +130,12 @@
                             <label for="new-student-enrollment" class="block text-sm font-medium text-gray-700">Enrollment Date</label>
                             <input type="date" name="enroll_date" id="new-student-enrollment" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
-                        
+
                         <div>
                             <label for="new-student-image" class="block text-sm font-medium text-gray-700">Student Image</label>
                             <input type="file" name="image" id="new-student-image" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
-                        
+
                     </div>
 
                     <div class="flex justify-end space-x-3">
