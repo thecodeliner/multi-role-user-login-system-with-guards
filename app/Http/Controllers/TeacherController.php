@@ -13,8 +13,12 @@ class TeacherController extends Controller
     }
 
     public function teacherProfile()
+
     {
-        return view('teacher.profile');
+       $teacher = Auth::guard('teacher')->user();
+        return view('teacher.profile', [
+            'teacher' => $teacher,
+        ]);
     }
 
     public function logout()

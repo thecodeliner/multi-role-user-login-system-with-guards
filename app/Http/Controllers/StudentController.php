@@ -15,6 +15,7 @@ class StudentController extends Controller
     public function studentProfile()
     {
         $student = Auth::guard('student')->user();
+
         return view('student.profile', [
 
             'student' => $student,

@@ -49,7 +49,7 @@
                     <div class="flex items-center space-x-6 mb-6">
                         <div class="flex-shrink-0">
                             <div class="h-24 w-24 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-bold">
-                                EJ
+                                <img style="width: 100px; height:100px;border-radius:50%;" src="{{ asset($student->image) }}">
                             </div>
                         </div>
                         <div>
@@ -61,53 +61,54 @@
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
                             <label for="student-first-name" class="block text-sm font-medium text-gray-700">First Name</label>
-                            <input type="text" id="student-first-name" value="Emily" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <input type="text" id="student-first-name" value="{{ $student->first_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
 
                         <div>
                             <label for="student-last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
-                            <input type="text" id="student-last-name" value="Johnson" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <input type="text" id="student-last-name" value="{{ $student->last_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
                     </div>
 
                     <div>
-                        <label for="student-email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                        <input type="email" id="student-email" value="emily.johnson@edumanage.edu" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <label for="student-email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="student-email" value="{{ $student->email }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
-                        <label for="student-phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                        <input type="tel" id="student-phone" value="+1 (555) 246-8135" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <label for="student-phone" class="block text-sm font-medium text-gray-700">Phone</label>
+                        <input type="tel" id="student-phone" value="{{ $student->phone }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="student-major" class="block text-sm font-medium text-gray-700">Major</label>
-                        <select id="student-major" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
-                            <option selected>Computer Science</option>
-                            <option>Mathematics</option>
-                            <option>Physics</option>
-                            <option>Biology</option>
-                            <option>Business Administration</option>
-                        </select>
+                        <input type="tel" id="student-phone" value="{{ $student->major }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="student-year" class="block text-sm font-medium text-gray-700">Year</label>
-                        <select id="student-year" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
-                            <option>Freshman</option>
-                            <option selected>Sophomore</option>
-                            <option>Junior</option>
-                            <option>Senior</option>
-                        </select>
+                        <input type="tel" id="student-phone" value="{{ $student->year }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
-                        <label for="student-gpa" class="block text-sm font-medium text-gray-700">GPA</label>
-                        <input type="text" id="student-gpa" value="3.75" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <label for="student-year" class="block text-sm font-medium text-gray-700">Date of Birth</label>
+                        <input type="tel" id="student-phone" value="{{ $student->dob }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
+                    <div>
+                        <label for="student-year" class="block text-sm font-medium text-gray-700">Enroll Date</label>
+                        <input type="tel" id="student-phone" value="{{ $student->enroll_date }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                    </div>
+
+                    <div>
+                        <label for="student-year" class="block text-sm font-medium text-gray-700">Address</label>
+                        <input type="tel" id="student-phone" value="{{ $student->address }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                    </div>
+
+
+
                     <div class="flex justify-end space-x-3">
-                        <a href="student_dashboard.html" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        <a href="{{ route('student.dashboard') }}" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                             Cancel
                         </a>
                         <button type="submit" class="bg-primary border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center text-sm font-medium text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">

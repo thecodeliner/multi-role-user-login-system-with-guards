@@ -34,7 +34,10 @@ class AdminController extends Controller
 
    public function adminProfile()
    {
-       return view('admin.profile');
+    $admin = Auth::guard('web')->user();
+       return view('admin.profile', [
+           'admin' => $admin,
+       ]);
    }
 
    public function createAdmin(){

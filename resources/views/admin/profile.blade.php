@@ -53,41 +53,41 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold">Admin Johnson</h4>
-                            <p class="text-gray-500">System Administrator</p>
+                            <h4 class="text-xl font-bold">{{ $admin->first_name }} {{ $admin->last_name }}</h4>
+                            <p class="text-gray-500">{{ $admin->department }}</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
-                            <label for="admin-first-name" class="block text-sm font-medium text-gray-700">First Name</label>
-                            <input type="text" id="admin-first-name" value="Admin" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <label for="admin-first-name" class="block text-sm font-medium text-gray-700">Frist Name</label>
+                            <input type="text" id="admin-first-name" value="{{ $admin->first_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
 
                         <div>
                             <label for="admin-last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
-                            <input type="text" id="admin-last-name" value="Johnson" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <input type="text" id="admin-last-name" value="{{ $admin->last_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
                     </div>
 
                     <div>
-                        <label for="admin-email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                        <input type="email" id="admin-email" value="admin.johnson@edumanage.edu" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <label for="admin-email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="admin-email" value="{{ $admin->email }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="admin-phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                        <input type="tel" id="admin-phone" value="+1 (555) 123-4567" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <input type="tel" id="admin-phone" value="{{ $admin->phone }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="admin-department" class="block text-sm font-medium text-gray-700">Department</label>
-                        <input type="text" id="admin-department" value="Administration" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <input type="text" id="admin-department" value="{{ $admin->department }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="admin-role" class="block text-sm font-medium text-gray-700">Role</label>
-                        <input type="text" id="admin-role" value="System Administrator" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary" disabled>
+                        <input type="text" id="admin-role" value="{{ $admin->role }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary" disabled>
                     </div>
 
                     <div class="flex justify-end space-x-3">

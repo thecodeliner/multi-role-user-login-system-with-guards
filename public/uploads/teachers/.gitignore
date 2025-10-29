@@ -1,4 +1,2 @@
 # Ignore all student uploaded images
-*.jpg
-*.jpeg
-*.png
+*

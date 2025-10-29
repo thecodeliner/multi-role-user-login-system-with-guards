@@ -53,47 +53,42 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold">John Smith</h4>
-                            <p class="text-gray-500">Mathematics Department</p>
+                            <h4 class="text-xl font-bold">{{ $teacher->first_name }} {{ $teacher->last_name }}</h4>
+                            <p class="text-gray-500">{{ $teacher->department }}</p>
                         </div>
                     </div>
 
                     <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
                         <div>
                             <label for="teacher-first-name" class="block text-sm font-medium text-gray-700">First Name</label>
-                            <input type="text" id="teacher-first-name" value="John" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <input type="text" id="teacher-first-name" value="{{ $teacher->first_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
 
                         <div>
                             <label for="teacher-last-name" class="block text-sm font-medium text-gray-700">Last Name</label>
-                            <input type="text" id="teacher-last-name" value="Smith" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                            <input type="text" id="teacher-last-name" value="{{ $teacher->last_name }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                         </div>
                     </div>
 
                     <div>
                         <label for="teacher-email" class="block text-sm font-medium text-gray-700">Email Address</label>
-                        <input type="email" id="teacher-email" value="john.smith@edumanage.edu" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <input type="email" id="teacher-email" value="{{ $teacher->email }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="teacher-phone" class="block text-sm font-medium text-gray-700">Phone Number</label>
-                        <input type="tel" id="teacher-phone" value="+1 (555) 987-6543" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <input type="tel" id="teacher-phone" value="{{ $teacher->phone }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
                         <label for="teacher-department" class="block text-sm font-medium text-gray-700">Department</label>
-                        <select id="teacher-department" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
-                            <option selected>Mathematics</option>
-                            <option>Science</option>
-                            <option>Computer Science</option>
-                            <option>Literature</option>
-                            <option>History</option>
-                        </select>
+                        <input type="tel" id="teacher-phone" value="{{ $teacher->department }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+
                     </div>
 
                     <div>
                         <label for="teacher-subjects" class="block text-sm font-medium text-gray-700">Subjects</label>
-                        <input type="text" id="teacher-subjects" value="Algebra, Calculus, Geometry" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
+                        <input type="text" id="teacher-subjects" value="{{ $teacher->subject }}" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">
                     </div>
 
                     <div>
@@ -102,7 +97,7 @@
                     </div>
 
                     <div class="flex justify-end space-x-3">
-                        <a href="teacher_dashboard.html" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+                        <a href="{{ route('teacher.dashboard') }}" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
                             Cancel
                         </a>
                         <button type="submit" class="bg-primary border border-transparent rounded-md shadow-sm py-2 px-4 inline-flex justify-center text-sm font-medium text-white hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
