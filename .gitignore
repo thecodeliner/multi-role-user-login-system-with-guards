@@ -15,9 +15,7 @@
 /node_modules
 /public/build
 /public/hot
-/public/uploads/students/*.jpg, *.png, *.jpeg
-/public/uploads/teachers/*.jpg, *.png, *.jpeg
-/public/storage
+/public/uploads/
 /storage/*.key
 /storage/pail
 /vendor
