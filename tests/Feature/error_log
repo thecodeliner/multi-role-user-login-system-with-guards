@@ -1,0 +1,16 @@
+[27-Oct-2025 15:57:03 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php on line 8
+[27-Oct-2025 16:05:10 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php on line 8
+[28-Oct-2025 15:29:52 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php on line 8
+[28-Oct-2025 16:16:46 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Feature/ExampleTest.php on line 8

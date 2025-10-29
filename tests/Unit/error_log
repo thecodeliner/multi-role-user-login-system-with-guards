@@ -1,0 +1,12 @@
+[27-Oct-2025 15:57:04 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php on line 7
+[28-Oct-2025 17:27:48 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php on line 7
+[28-Oct-2025 18:11:56 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/Unit/ExampleTest.php on line 7

@@ -1,0 +1,40 @@
+[28-Oct-2025 03:45:25 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateStudentController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateStudentController.php on line 11
+[28-Oct-2025 03:52:03 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateTeacherController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateTeacherController.php on line 11
+[28-Oct-2025 04:46:21 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateStudentController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateStudentController.php on line 11
+[28-Oct-2025 04:47:05 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateTeacherController.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/CreateTeacherController.php on line 11
+[28-Oct-2025 07:46:04 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/TeacherController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/TeacherController.php on line 7
+[28-Oct-2025 07:47:15 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/StudentController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/StudentController.php on line 7
+[28-Oct-2025 08:51:39 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/TeacherController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/TeacherController.php on line 7
+[28-Oct-2025 08:54:40 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/StudentController.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/StudentController.php on line 7
+[28-Oct-2025 17:33:54 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/AuthController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/AuthController.php on line 10
+[28-Oct-2025 18:15:37 UTC] PHP Fatal error:  Uncaught Error: Class "App\Http\Controllers\Controller" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/AuthController.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/app/Http/Controllers/AuthController.php on line 10

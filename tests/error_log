@@ -1,0 +1,24 @@
+[27-Oct-2025 06:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7
+[27-Oct-2025 06:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7
+[27-Oct-2025 13:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7
+[27-Oct-2025 13:41:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7
+[27-Oct-2025 19:43:02 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7
+[27-Oct-2025 19:58:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Testing\TestCase" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/tests/TestCase.php on line 7

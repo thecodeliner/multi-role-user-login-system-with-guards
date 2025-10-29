@@ -1,0 +1,48 @@
+[27-Oct-2025 06:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12
+[27-Oct-2025 06:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 06:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12
+[27-Oct-2025 06:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 13:23:33 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12
+[27-Oct-2025 13:26:19 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 13:31:00 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12
+[27-Oct-2025 13:32:49 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12
+[27-Oct-2025 13:35:20 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 13:39:48 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 13:55:32 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/console.php on line 6
+[27-Oct-2025 14:02:18 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/codelin1/public_html/subdomains/sample.codeliner.art/routes/web.php on line 12

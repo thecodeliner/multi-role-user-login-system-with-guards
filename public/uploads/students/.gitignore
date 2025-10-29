@@ -1,0 +1,3 @@
+# Ignore all student uploaded images
+public/student/images/*
+!public/student/images/.gitkeep
