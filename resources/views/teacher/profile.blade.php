@@ -49,7 +49,7 @@
                     <div class="flex items-center space-x-6 mb-6">
                         <div class="flex-shrink-0">
                             <div class="h-24 w-24 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-bold">
-                                JS
+                                <img style="width: 100px; height:100px;border-radius:50%;" src="{{ asset($teacher->image) }}">
                             </div>
                         </div>
                         <div>
@@ -93,7 +93,7 @@
 
                     <div>
                         <label for="teacher-bio" class="block text-sm font-medium text-gray-700">Bio</label>
-                        <textarea id="teacher-bio" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">Mathematics professor with 10 years of teaching experience. Specialized in advanced calculus and linear algebra. Passionate about helping students develop strong problem-solving skills.</textarea>
+                        <textarea id="teacher-bio" rows="4" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-primary focus:border-primary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</textarea>
                     </div>
 
                     <div class="flex justify-end space-x-3">

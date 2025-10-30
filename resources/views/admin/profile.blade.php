@@ -32,7 +32,7 @@
                     <h1 class="text-2xl font-bold text-gray-900">Admin Profile</h1>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="{{ route('admin.profile') }}" class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition">Back to Dashboard</a>
+                    <a href="{{ route('admin.dashboard') }}" class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-200 transition">Back to Dashboard</a>
                     <a href="{{ route('admin.logout') }}" class="bg-red-500 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-600 transition">Logout</a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <div class="flex items-center space-x-6 mb-6">
                         <div class="flex-shrink-0">
                             <div class="h-24 w-24 rounded-full bg-primary flex items-center justify-center text-white text-2xl font-bold">
-                                AJ
+                                <img style="width: 100px; height:100px;border-radius:50%;" src="{{ asset($admin->image) }}">
                             </div>
                         </div>
                         <div>
